@@ -158,7 +158,10 @@
     lastPage.append(item);
     insertPagesInView(this);
 
-    return item;
+    return {
+        height: this.height,
+        item: item
+    };
   };
 
 
