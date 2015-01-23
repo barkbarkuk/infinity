@@ -1069,4 +1069,5 @@
     return infinity;
   };
 
+  return infinity;
 }));
